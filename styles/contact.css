@@ -1,0 +1,98 @@
+﻿section#contact {
+    background-color: #FBEAD1;
+
+}
+
+section#contact h2 {
+    font-size: 5rem;
+    color: black;
+    font-family: Baskerville;
+}
+
+section#contact p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: Gooper;
+    padding-bottom: 70%;
+}
+
+
+
+.column1 {
+    float: left;
+    width: 30%;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+    padding-left: 10%;
+}
+
+
+section#contact form {
+    text-align: center;
+    width: 100%;
+    padding-top: 250px;
+}
+
+    section#contact form label {
+        text-align: left;
+        display: block;
+        padding: 2% 0 0 0;
+        color: black;
+        font-family: Gooper;
+    }
+
+
+input#Name {
+    height: 50px;
+    width: 100%;
+    background-color: #FDF7EC;
+    color: black;
+    font-size: 1.5em;
+    font-family: Gooper;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+input#Email {
+    height: 50px;
+    width: 100%;
+    background-color: #FDF7EC;
+    color: black;
+    font-size: 1.5em;
+    font-family: Gooper;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+textarea#Message {
+    height: 200px;
+    resize: none;
+    width: 100%;
+    border-style: hidden;
+    border-radius: 15px;
+    background-color: #FDF7EC;
+    color: black;
+    font-size: 1.5em;
+    font-family: Gooper;
+}
+#submit {
+    width: 200px;
+    background-color: #FDF7EC;
+    background-image: url(../Images/send1.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-origin: content-box;
+    background-size: 75px 75px;
+    color: black;
+    font-size: 1.5em;
+    font-family: Gooper;
+    border-style: none;
+    border-radius: 10px;
+    height: 64px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100000;
+}

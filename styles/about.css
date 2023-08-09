@@ -1,0 +1,66 @@
+﻿section#aboutme {
+    background-color: #19d175;
+}
+div#aboutMeContainer {
+    width: 100%;
+    max-width: 80vw;
+    height: 70vh;
+    min-height: 600px;
+    text-align: left;
+}
+
+section#aboutme h2 {
+    font-size: clamp(2em, 5vw + 1em, 5em);
+    position: relative;
+    color: black;
+    font-family: Gooper;
+    margin: 2em 1em 0.5em;
+}
+
+.about-me-text {
+    float: left;
+    width: 40%;
+}
+
+
+.CV-link {
+    float: right;
+    width: 40%;
+    margin: 30vh auto;
+}
+.CV-link a img {
+    min-height: 32px;
+    min-width: 32px;
+    max-height: 512px;
+    max-width: 512px;
+    height: 20vw;
+    width: 20vw;
+}
+
+section#aboutme p {
+    font-size: clamp(0.3rem, 2vw +1em, 1.5rem);
+    position: relative;
+    color: black;
+    font-family: Gooper-Light;
+    margin: 1em 1em;
+    padding: 0 1em;
+}
+
+@media screen and (max-width: 600px) {
+    section#aboutme h2 {
+        margin: 3em 1em 0.5em;
+    }
+
+    .about-me-text{
+        width: 90%;
+    }
+    section#aboutme p {
+        display: block;
+        float: none;
+    }
+    .CV-link{
+        width: 90%;
+        display: block;
+        float: none;
+    }
+}
