@@ -5,19 +5,19 @@
 
     if (2 * document.documentElement.clientHeight <= document.getElementById("container").scrollTop && document.getElementById("container").scrollTop < 3*document.documentElement.clientHeight){
         if (header.className == "topnav") {
-            document.getElementsByClassName("topnav")[0].style.backgroundColor = '#FBEAD1';
+            document.getElementsByClassName("topnav")[0].style.backgroundColor = '#385878';
         }
         else if (header.className == "topnav responsive") {
-            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#FBEAD1';
+            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#385878';
             //document.getElementsById("topnavUL").style.backgroundColor = 'rgb(33, 52, 69)';
         }
     }
     if (3 * document.documentElement.clientHeight <= document.getElementById("container").scrollTop) {
         if (header.className == "topnav") {
-            document.getElementsByClassName("topnav")[0].style.backgroundColor = '#19d175';
+            document.getElementsByClassName("topnav")[0].style.backgroundColor = '#ACC2D7';
         }
         else if (header.className == "topnav responsive") {
-            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#19d175';
+            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#ACC2D7';
             //document.getElementsById("topnavUL").style.backgroundColor = 'rgb(172, 194, 215)';
         }
     }
@@ -26,14 +26,14 @@
             document.getElementsByClassName("topnav")[0].style.backgroundColor = 'transparent';
         }
         else if (header.className == "topnav responsive") {
-            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = 'rgb(56, 88, 120)';
+            document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#223444';
             //document.getElementById("topnavUL").style.backgroundColor = 'rgb(56, 88, 120)'
         }
     }
 }
 
 function LoaderFunction() {
-    var myVar = setTimeout(showPage, 4000);
+    var myVar = setTimeout(showPage, 0);
 }
 
 function showPage() {
