@@ -1,14 +1,14 @@
 ﻿section#CV {
     justify-content: center;
     align-items: center;
-    background-color: #4697f6;
+    background-color: #ACC2D7;
 }
 
 section#CV h2 {
     font-size: clamp(2em, 5vw + 1em, 4em);
     position: absolute;
-    color: black;
-    font-family: Gooper;
+    color: #E3EBF2;
+    font-family: Cera-Pro;
     margin: -5em 1em 0 1em;
     
 }
@@ -43,7 +43,7 @@ div#gridContainer {
     width: 1545px;
     height: 100%;
     display: inline-grid;
-    grid-template-columns: repeat(6, 16% [col-start]);
+    grid-template-columns: repeat(5, 20% [col-start]);
     grid-template-rows: 50%;
     position: absolute;
     justify-content: center;
@@ -54,11 +54,10 @@ div#gridContainer {
     margin: 20% auto;
     display: flex;
     text-align: center;
-    font-family: Gooper-Light;
+    font-family: Cera-Pro-Light;
     background-color: #202C39;
     box-shadow: 1px 1px 1px 1px;
     border-radius: 5px;
-    padding: 10px;
 }
 
 img.icon {

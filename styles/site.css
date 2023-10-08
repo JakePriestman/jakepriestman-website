@@ -1,14 +1,10 @@
 @font-face {
-    font-family: 'Gooper';
-    src: local('Gooper SemiBold'), local('Gooper-SemiBold'), url('../font/Gooper-SemiBold.woff2') format('woff2'), url('../font/Gooper-SemiBold.woff') format('woff'), url('../font/Gooper-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+    font-family: Cera-Pro;
+    src: url(../fonts/Cera\ Pro\ Black.otf);
 }
 @font-face {
-    font-family: 'Gooper-Light';
-    src: local('Gooper Light'), local('Gooper-Light'), url('../font/Gooper-Light.woff2') format('woff2'), url('../font/Gooper-Light.woff') format('woff'), url('../font/Gooper-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+    font-family: Cera-Pro-Light;
+    src: url(../fonts/Cera\ Pro\ Light.otf);
 }
 #socialIcons ul {
     list-style: none;
@@ -74,9 +70,9 @@
 .topnav ul li a {
     position: relative;
     text-decoration: none;
-    font-family: Gooper;
+    font-family: Cera-Pro-Light;
     font-weight: 599;
-    color: black;
+    color: #E3EBF2;
 }
 .topnav .icon {
     display: none;
@@ -93,7 +89,7 @@
 }
 .topnav ul li a:hover::after {
     width: 100%;
-    background-color: black;
+    background-color: #E3EBF2;
 }
 
 @media screen and (max-width: 600px){
@@ -144,8 +140,8 @@ body {
     height: 100vh;
     flex-direction: column;
     line-height: 1.5;
-    background-color: #FBEAD1;
-    font-family: Baskerville;
+    background-color: #223444;
+    font-family: Cera-Pro-Light;
 }
 
 section {
@@ -168,7 +164,7 @@ section {
     width: 60px;
     height: 60px;
     margin: -76px 0 0 -76px;
-    background-image: url(../Images/logo-black.png);
+    background-image: url(../Images/logo-white.png);
     background-size: 50px 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +188,7 @@ section {
     width: 60px;
     height: 60px;
     margin: -76px 0 0 -76px;
-    border-top: 5px solid black;
+    border-top: 5px solid #E3EBF2;
     border-radius: 5px;
     -webkit-animation: borderTop 4s linear;
 }
@@ -204,7 +200,7 @@ section {
     width: 60px;
     height: 60px;
     margin: -76px 0 0 -76px;
-    border-right: 5px solid black;
+    border-right: 5px solid #E3EBF2;
     border-radius: 5px;
     -webkit-animation: borderRight 4s linear;
 }
@@ -216,7 +212,7 @@ section {
     width: 60px;
     height: 60px;
     margin: -76px 0 0 -76px;
-    border-left: 5px solid black;
+    border-left: 5px solid #E3EBF2;
     border-radius: 5px;
     -webkit-animation: borderLeft 4s linear;
 }
@@ -228,7 +224,7 @@ section {
     width: 60px;
     height: 60px;
     margin: -76px 0 0 -76px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #E3EBF2;
     border-radius: 5px;
     -webkit-animation: borderBottom 4s linear;
 }

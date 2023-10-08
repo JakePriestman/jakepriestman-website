@@ -1,5 +1,5 @@
 ﻿section#aboutme {
-    background-color: #19d175;
+    background-color: #E3EBF2;
 }
 div#aboutMeContainer {
     width: 100%;
@@ -12,8 +12,8 @@ div#aboutMeContainer {
 section#aboutme h2 {
     font-size: clamp(2em, 5vw + 1em, 5em);
     position: relative;
-    color: black;
-    font-family: Gooper;
+    color: #223444;
+    font-family: Cera-Pro;
     margin: 2em 1em 0.5em;
 }
 
@@ -40,8 +40,8 @@ section#aboutme h2 {
 section#aboutme p {
     font-size: clamp(0.3rem, 2vw +1em, 1.5rem);
     position: relative;
-    color: black;
-    font-family: Gooper-Light;
+    color: #223444;
+    font-family: Cera-Pro-Light;
     margin: 1em 1em;
     padding: 0 1em;
 }
