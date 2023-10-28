@@ -1,8 +1,8 @@
 ﻿section#home {
     align-items: center;
     justify-content: center;
-    background-color: #2C8C51;
-    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+    /*background-color: #2C8C51;*/
+    /*clip-path: polygon(100% 100%, 0 100%, 100% 0);*/
 }
 
 div#intro {
@@ -11,8 +11,6 @@ div#intro {
     height: 70vh;
     min-height: 600px;
     z-index: 100;
-    /*background-color: #E3EBF2;
-    position: relative;*/
 }
 
 section#home h2 {
@@ -23,8 +21,7 @@ section#home h2 {
     font-family: Cera-Pro;
     color: #E3EBF2;
     position: relative;
-    top: 15%;
-    /*text-shadow: #ACC2D8 2px 2px 5px;*/
+    top: 10%;
 }
 
 section#home h3 {
@@ -37,8 +34,7 @@ section#home h3 {
     font-family: Cera-Pro-Light;
     color: #E3EBF2;
     font-weight: bold;
-    top: 15%;
-    /*text-shadow: #ACC2D8 2px 2px 5px;*/
+    top: 10%;
 }
 
 section#home img {
@@ -53,14 +49,6 @@ section#home img {
     margin: 5em auto;
     display: block;
     overflow: hidden;
-}
-
-.star {
-    color: #19d175;
-}
-.star.visible{
-    color: #19d175;
-    display: none;
 }
 
 @media screen and (max-width: 600px)

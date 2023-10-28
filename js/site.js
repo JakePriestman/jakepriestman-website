@@ -23,7 +23,7 @@
     }
     if (2 * document.documentElement.clientHeight > document.getElementById("container").scrollTop) {
         if (header.className == "topnav") {
-            document.getElementsByClassName("topnav")[0].style.backgroundColor = 'transparent';
+            document.getElementsByClassName("topnav")[0].style.backgroundColor = '#223444';
         }
         else if (header.className == "topnav responsive") {
             document.getElementsByClassName("topnav responsive")[0].style.backgroundColor = '#223444';
@@ -33,7 +33,7 @@
 }
 
 function LoaderFunction() {
-    var myVar = setTimeout(showPage, 0);
+    var myVar = setTimeout(showPage, 4000);
 }
 
 function showPage() {
